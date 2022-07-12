@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <p>Entrada de Formatura</p>      
+      </header>
+      <main>
+        <section class="descricao">
+          <h1>Bem-vindo a Formatura!</h1>
+          <p>Para confirmar entrada, digite os seguintes dados:</p>
+        </section>
+        <section class="dados">
+          <form method="get" action = "">
+            <label>Nome:*</label>
+            <input id="nome" type="text" placeholder="Digite seu nome" required></input>
+            <label>Código da turma:*</label>
+            <input id="turma" type="number" placeholder="Digite o codigo da turma" required></input>
+            
+          </form>
+            <button onclick="verificaTurma()">Entrar</button>
+            <label id="permissao">Verificando...</label>
+        </section>
+        
+      </main>
+</body>
+</html>

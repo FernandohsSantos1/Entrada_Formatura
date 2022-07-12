@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #20232a;
+  top: 0;
+  position: absolute;
+  align-items: center;
+}
+
+header p {
+  font-family: 'Splash' ;
+  color: goldenrod;
+  font-size: 30px;
+  position: absolute;
+  margin: 10px;
+  margin-left: 30px;
+  word-spacing: 0.5em;
+}
+main {
+  display: flex;
+  width: 100%;
+  height: 969px;
+  background-color: #282c34;
+  justify-content: center;
+  
+}
+.descricao {   
+  color:azure;
+  position: absolute;
+  margin: 100px auto;
+  text-align: center;
+  width:600px
+}
+.descricao h1 {
+  font-family: 'Splash';
+  font-size: 42px;
+  font-weight: lighter;
+}
+.descricao p{
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.dados {
+  display: block;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px 0;
+  color:azure;
+  position: absolute;
+  margin: 300px auto;
+  text-align: center;
+  width:600px
+}
+.dados label {
+  display: block;
+  margin: 20px;
+}
+.dados input {
+  display: block;
+  width: 500px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background-color: rgb(83, 83, 83);
+  color: white;
+}
+.dados button { 
+  background-color: #20232a;
+  border: 3px solid goldenrod;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 1px 40px;
+  color: goldenrod;
+  font-family: 'Splash';
+  font-size: 30px;
+  cursor: pointer;
+}
+#permissao {
+  font-family: 'Splash';
+  margin-top: 70px;
+  font-size: 42px;
+  font-weight: lighter
+}
